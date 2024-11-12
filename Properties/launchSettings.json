@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ScheduleValidator": {
+      "commandName": "Project",
+      "commandLineArgs": "-p iwatsu2"
+    }
+  }
+}
