@@ -25,17 +25,17 @@ The results of the verification can then be saved to a CSV file for further revi
 
 _Note: Replace sample values for org name, flow name with your actual values._
 
-- Display the schedule and status that would be in effect if an incoming call were to be received on DID '3175551234' at the current date and time.
+- Display the schedule and status that would be in effect if an incoming call were to be received on DID '3175551234' at the current date and time.<br>
   `ScheduleValidator.exe -D 3175551234`
-- Display the schedule and status that would be in effect if an incoming call were received on December 31, 2024, at 23:00.
+- Display the schedule and status that would be in effect if an incoming call were received on December 31, 2024, at 23:00.<br>
   `ScheduleValidator.exe -d 20241231 -t 23000`
-- Display the schedule and status that would be in effect if an incoming call were received at the 'ticket_info' in the 'ABC' organization on December 31, 2024, at 23:00.
+- Display the schedule and status that would be in effect if an incoming call were received at the 'ticket_info' in the 'ABC' organization on December 31, 2024, at 23:00.<br>
   `ScheduleValidator.exe -d 20241231 -t 23000 -F ticket_info -p ABC`
-- Display the schedule and status that would be in effect if an incoming call were received at the 'ticket_info' in the 'ABC' organization AND the DID '+13175551234' on December 31, 2024, at 23:00.
-  `ScheduleValidator.exe -d 20241231 -t 23000 -F ticket_info* -p ABC -D +13175551234`
-- Display the schedule and status that would be in effect if an incoming call were received on December 31, 2024, at 23:00, and save the result as 'test.csv' in the CSV folder.
+- Display the schedule and status that would be in effect if an incoming call were received at the 'ticket_info' in the 'ABC' organization AND the DID '+13175551234' on December 31, 2024, at 23:00.<br>
+  `ScheduleValidator.exe -d 20241231 -t 23000 -F ticket_info -p ABC -D +13175551234`
+- Display the schedule and status that would be in effect if an incoming call were received on December 31, 2024, at 23:00, and save the result as 'test.csv' in the CSV folder.<br>
   `ScheduleValidator.exe -d 20241231 -t 23000 -o test.csv`
-- Load 'TestParam.csv' from ScheduleValidator.exe and display the validation results.
+- Load 'TestParam.csv' from ScheduleValidator.exe and display the validation results.<br>
   `ScheduleValidator.exe -i TestParam.csv.`
 
 #### Command Line argument
